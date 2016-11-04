@@ -1,0 +1,75 @@
+h1 {
+  text-align: center;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.col1-3 {
+  width: 31.5%;
+  text-align: center;
+  border: 1px blue solid;
+  display: inline-block;
+  background: #C5FFFF;
+  padding: 10px;
+}
+
+.col1-2 {
+  width: 40%;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  border-bottom: 1px black solid;
+  margin-bottom: 40px;
+}
+
+table, th, td {
+   border: 1px solid black;
+   text-align: center;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+  margin-top: 40px;
+  width: 80%;
+  background: #E9ECF0;
+}
+
+.float {
+  float: left;
+  margin-left: 16%;
+}
+
+#circle {
+  width: 165px;
+  height: 165px;
+  border: 2px solid black;
+  background: green;
+  border-radius: 50%;
+}
+
+#square {
+  width: 165px;
+  height: 165px;
+  border: 2px solid black;
+  background: purple;
+}
+
+#image {
+  width: 165px;
+  height: 165px;
+  border: 2px solid blue;
+  background-image: url("http://www.easydrawingtutorials.com/images/Roger/draw-roger-rabbit-last.jpg");
+  background-position: center;
+  background-size: 86%;
+  background-repeat: no-repeat;
+}
